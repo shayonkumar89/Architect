@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font{
+                    font-family: "Work Sans", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight:400;
+                    font-style: normal;
+}
+
+/*shared styles*/
+.display-flex{
+                    display: flex;
+}
+.btn-primary{
+                   background-color: #FF900E;
+                   color: white;
+                   padding: 13px 25px;
+                   border-radius: 10px;
+}
+
+main{
+                    max-width: 1440px;
+                    margin: 0 auto;
+
+}
+main>section{
+                    margin-top: 130px;
+}
+
+/* dark 02 */
+.text-gray{
+                    color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray{
+                    color: #727272;
+}
+
+.bg-light{
+            background-color: rgba( 255, 144, 14, 0.1);        
+}
+
+/* header styles */
+
+
+
+/* navebar related styles */
+.navbar{
+                   justify-content: space-between;
+                   align-items: center;
+}
+
+.brand{
+                    font-weight: 700;
+                    font-size: 3rem;
+}
+.nav-links{
+                   
+}
+
+.nav-item{
+                    list-style: none;
+                    margin-right: 30px;
+                   
+}
+
+.nav-link{
+                    text-decoration: none;
+                    font-weight: 500;
+}
+
+.navbar, .banner{
+max-width: 1440px;
+margin: 0 auto;
+}
+
+/* banner related styles */
+.banner-contant{
+            max-width: 850px;
+            margin: 0 auto; 
+            text-align: center; 
+            margin-bottom: 50px;
+           
+}  
+
+.banner-title{
+                    font-weight: 700;
+                    font-size: 4rem;
+}
+
+.banner-img{
+                width: 100%;
+}
+
+.teams{
+                    align-items: center;
+}
+.team-img-contianer{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 24px;
+}
+.feature-title{
+                    font-size: 2.8rem;
+                    font-weight: 700;
+}
+.our-features{
+                    margin-left: 130px; 
+                    max-width: 530px;     
+      }
+ #part1{
+          font-weight: 500;          
+ }  
+ .part2{
+                    color: #FF900E;
+ }   
+      
+
+
+/* responsive media query */
+@media screen and (max-width: 576px){
+           .navbar, .nav-links{
+                    flex-direction: column;
+           }         
+}
